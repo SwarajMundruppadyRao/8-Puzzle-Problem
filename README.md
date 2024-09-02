@@ -1,5 +1,5 @@
 # 8-Puzzle-Problem
-Solving the 8 puzzle problem using Node exploration strategy
+Solving the 8 puzzle problem using Node exploration strategy (BFS Algorithm)
 
 ## Description
 
@@ -22,7 +22,9 @@ The repository contains two pyton files to solve and animate the 8 puzzle proble
   ```bash
  python 3 8_puzzle_problem.py
 ```
-*  Enter the Starting and Goal Co-ordinates as per the instructions visible in the terminal window
-*  The code will run and generate the path
-*  The Node exploration and Optimal Path will be displayed by pygame
-*  Once the whole sequence is completed, a video output of the pygame visualisation will be compiled and generated in the folder where you have run the code.
+* Enter the Puzzle configuration into the terminal row wise ( Enter the first element of row 1, press Enter. Next enter the second element of the first row.....And so on...)
+*  Wait for the file to run. Once the process has ended the following will be printed in your terminal " Run Animate.py file using: python3 Animate.py command in the terminal to watch how the puzzle was solved".
+*  Run this command in the terminal to visualize how the puzzle was solved using BFS algorithm.
+ ```bash
+python3 Animate.py
+   ```
