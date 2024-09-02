@@ -28,3 +28,7 @@ The repository contains two pyton files to solve and animate the 8 puzzle proble
  ```bash
 python3 Animate.py
    ```
+
+## Note 
+1. For the entered configuration the code will convey whether the puzzle combination entered is solvable or not. If the puzzle is not solvable then a prompt will be displayed in the terminal. Run the program again, follow steps 3 - 6.
+2. The code for solvability checker has been borrowed from GeeksForGeeks Website (https://www.geeksforgeeks.org/check-instance-8-puzzlesolvable/).
